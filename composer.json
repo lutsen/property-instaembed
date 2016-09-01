@@ -1,0 +1,20 @@
+	{
+	"name": "lagan/property-instaembed",
+	"type": "library",
+	"description": "Controller for the Lagan instaembed property.",
+	"keywords": ["lagan","instagram","property","controller"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lútsen Stellingwerff",
+			"email": "lutsenstellingwerff@gmail.com",
+			"homepage": "http://www.hoverkraft.nl",
+			"role": "Developer"
+		}
+	],
+    "autoload": {
+        "psr-4": {
+            "Lagan\\Property\\": "src/"
+        }
+    }
+}
