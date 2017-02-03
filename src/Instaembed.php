@@ -33,7 +33,7 @@ class Instaembed {
 			$output = curl_exec($ch);
 			curl_close($ch);
 		} else {
-			throw new Exception('allow_url_fopen or cURL has to be enabled on your webserver.');
+			throw new \Exception('allow_url_fopen or cURL has to be enabled on your webserver.');
 		}
 		return $output;
 	}
